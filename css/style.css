@@ -1,0 +1,18 @@
+.carrossel{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.carrossel .ft{
+    width: 1000%;
+    animation: animacao 5s infinite;
+}
+
+.carrossel .ft img{
+    width: 19.9;
+}
+
+@keyframes animacao{
+
+}
