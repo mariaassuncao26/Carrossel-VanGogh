@@ -1,18 +1,28 @@
 .carrossel{
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 100%;
     overflow: hidden;
 }
 
 .carrossel .ft{
     width: 1000%;
-    animation: animacao 5s infinite;
+    animation: animacao 10s infinite;
 }
 
 .carrossel .ft img{
-    width: 19.9;
+    width: 9%;
 }
 
 @keyframes animacao{
-
+     0%{margin-left: 0;}
+    10%{margin-left: 0;}
+    20%{margin-left: -200;}
+    30%{margin-left: -300;}
+    40%{margin-left: -400%;}
+    50%{margin-left: -500%;}
+    60%{margin-left: -600%;}
+    70%{margin-left: -700%;}
+    80%{margin-left: -800%;}
+    90%{margin-left: -900%;}
+   100%{margin-left: -1000%;}
 }
