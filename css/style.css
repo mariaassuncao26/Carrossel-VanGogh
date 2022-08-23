@@ -13,25 +13,35 @@
 
 .carrossel .ft{
     width: 1100%;
-    animation: animacao 50s infinite;
+    animation: animacao 42s infinite;
 }
 
 .carrossel .ft img{
     position: relative;
     width: 9%;
+    height: 340px;
 }
 
 @keyframes animacao{
        0%{margin-left: 0;}
        5%{margin-left: 0;}
-     10%{margin-left: -100%;}
-     20%{margin-left: -200%;}
-     30%{margin-left: -300%;}
-     40%{margin-left: -400%;}
-     50%{margin-left: -500%;}
-     60%{margin-left: -600%;}
-     70%{margin-left: -700%;}
-     80%{margin-left: -800%;}
-     90%{margin-left: -900%;}
-   100%{margin-left: -1000%;}
+      10%{margin-left: -100%;}
+      15%{margin-left: -100%;}
+      20%{margin-left: -200%;}
+      25%{margin-left: -200%;}
+      30%{margin-left: -300%;}
+      35%{margin-left: -300%;}
+      40%{margin-left: -400%;}
+      45%{margin-left: -400%;}
+      50%{margin-left: -500%;}
+      55%{margin-left: -500%;}
+      60%{margin-left: -600%;}
+      65%{margin-left: -600%;}
+      70%{margin-left: -700%;}
+      75%{margin-left: -700%;}
+      80%{margin-left: -800%;}
+      85%{margin-left: -800%;}
+      90%{margin-left: -900%;}
+      95%{margin-left: -900%;}
+    100%{margin-left: -1000%;}
 }
