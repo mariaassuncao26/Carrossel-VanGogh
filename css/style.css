@@ -1,10 +1,10 @@
-.wrapper img{
+.fundo img{
     position: absolute;
-    width:100%;
-    height: 100%;
-    left: 0%;
-    top: 0%;
+    width: 530px;
+    height: 400px;
+    left: 32.5%;
 }
+
 .carrossel{
     width: 400px;
     height: 100%;
@@ -19,7 +19,7 @@
 .carrossel .ft img{
     position: relative;
     width: 9%;
-    height: 340px;
+    height: 353px;
 }
 
 @keyframes animacao{
