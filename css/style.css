@@ -32,7 +32,7 @@ body{
     width: 9%;
     height: 353px;
 }
-
+/*
 @keyframes animacao{
        0%{margin-left: 0;}
        5%{margin-left: 0;}
@@ -56,3 +56,57 @@ body{
       95%{margin-left: -900%;}
     100%{margin-left: -1000%;}
 }
+
+.carrosseltext{
+    font-size: medium;
+    overflow: hidden;
+}
+
+.carrosseltext .nomes{
+    width: 1100%;
+    animation: animacao2 42s infinite;
+}
+
+.carrosseltext .nomes text{
+    position: relative;
+}
+
+@keyframes animacao2{
+       0%{margin-top: 0;}
+       5%{margin-top: 0;}
+      10%{margin-top: -100%;}
+      15%{margin-top: -100%;}
+      20%{margin-top:  -200%;}
+      25%{margin-top:  -200%;}
+      30%{margin-top:  -300%;}
+      35%{margin-top:  -300%;}
+      40%{margin-top:  -400%;}
+      45%{margin-top:  -400%;}
+      50%{margin-top: -500%;}
+      55%{margin-top:  -500%;}
+      60%{margin-top: -600%;}
+      65%{margin-top:  -600%;}
+      70%{margin-top:  -700%;}
+      75%{margin-top: -700%;}
+      80%{margin-top:  -800%;}
+      85%{margin-top:  -800%;}
+      90%{margin-top: -900%;}
+      95%{margin-top:  -900%;}
+    100%{margin-top: -1000%;}
+}
+        <div class="carrosseltext">
+                <div class="nomes">
+                    <p>Campo de trigo com corvos
+                    A casa amarela
+                    Campo de trigo com ciprestes
+                    O quarto
+                    A noite estrelada
+                    Amendoeira em flor
+                    Terraço do café a noite
+                    Autorretrato com chapéu de palha
+                    O carteiro: Joseph Roulin
+                    Homem velho com a cabeça em suas mãos
+                    Campo de trigo com corvos
+                </div>
+        </div>
+*/
