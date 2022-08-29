@@ -32,7 +32,7 @@ body{
     width: 9%;
     height: 353px;
 }
-/*
+
 @keyframes animacao{
        0%{margin-left: 0;}
        5%{margin-left: 0;}
@@ -56,7 +56,7 @@ body{
       95%{margin-left: -900%;}
     100%{margin-left: -1000%;}
 }
-
+/*
 .carrosseltext{
     font-size: medium;
     overflow: hidden;
